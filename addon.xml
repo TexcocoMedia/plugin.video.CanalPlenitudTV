@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.CanalPlenitudTV"
+	name="Canal Plenitud.TV"
+	version="1.0.2"
+	provider-name="Texcoco Media">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Canal Plenitud.TV</summary>
+    <description lang="en">Descubre los contenidos del primer canal de contenidos holísticos y de crecimiento personal en español.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
